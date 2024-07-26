@@ -7,7 +7,7 @@ This package provides a collection of utility functions designed to streamline c
 You can install this package via Composer:
 
 ```bash
-composer require your-vendor/helpers
+composer require mbs-dev/php-helpers
 ```
 
 ## Usage
