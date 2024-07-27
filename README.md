@@ -32,7 +32,7 @@ use App\Helpers\Helpers;
 ---------------------------------------
 ### Function Details:
 
-1. 
+- 1 : 
 `getFileMimeType`
 
 Gets the mime type of a file.
@@ -52,7 +52,7 @@ $mimeType = $helpers->getFileMimeType($uploadedFile);
 echo $mimeType; // Outputs the mime type
 ```
 
-2. 
+- 2 : 
 `extractIdFromApiUrl`
 
 Extracts an ID from a given API URL.
@@ -69,8 +69,7 @@ $id = Helpers::extractIdFromApiUrl('https://api.example.com/resource/123');
 echo $id; // Outputs: 123
 ```
 
-3. 
-`slugify`
+- 3 : `slugify`
 
 Converts a string into a URL-friendly slug.
 
@@ -87,8 +86,7 @@ $slug = Helpers::slugify('Hello World!');
 echo $slug; // Outputs: hello-world
 ```
 
-4. 
-`createUploadedFile`
+- 4 : `createUploadedFile`
 
 Creates an UploadedFile instance from a given path.
 
@@ -104,7 +102,7 @@ Returns: UploadedFile - The created UploadedFile instance.
 $uploadedFile = Helpers::createUploadedFile('/path/to/original.jpg', '/path/to/copied.jpg');
 ```
 
-5. `generateRandomString`
+- 5 : `generateRandomString`
 Generates a random string based on the current date and time.
 
 
@@ -115,7 +113,7 @@ $randomString = Helpers::generateRandomString();
 echo $randomString; // Outputs a random string
 
 
-6. genererCodeAlphanumerique
+- 6 : `genererCodeAlphanumerique`
 Generates an alphanumeric code of specified length.
 
 Parameters:
@@ -131,8 +129,7 @@ echo $code; // Outputs a 10-character alphanumeric code
 ```
 
 
-7. 
-`getDistanceBetweenPoints`
+- 7 : `getDistanceBetweenPoints`
 
 Calculates the distance between two geographic points.
 
@@ -152,8 +149,7 @@ $distance = Helpers::getDistanceBetweenPoints(40.748817, -73.985428, 34.052235, 
 echo $distance; // Outputs the distance in kilometers
 ```
 
-8. 
-`extractFormData`
+- 8 : `extractFormData`
 
 Extracts form data from a request.
 
@@ -170,8 +166,7 @@ $formData = $helpers->extractFormData($request);
 print_r($formData); // Outputs the form data
 ```
 
-9. 
-`parseMultipartFormData`
+- 9 : `parseMultipartFormData`
 
 Parses multipart form data from a request.
 
